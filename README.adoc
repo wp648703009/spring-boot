@@ -1,26 +1,27 @@
-= Spring Boot image:https://ci.spring.io/api/v1/teams/spring-boot/pipelines/spring-boot-3.2.x/jobs/build/badge["Build Status", link="https://ci.spring.io/teams/spring-boot/pipelines/spring-boot-3.2.x?groups=Build"] image:https://badges.gitter.im/Join Chat.svg["Chat",link="https://gitter.im/spring-projects/spring-boot?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge"] image:https://img.shields.io/badge/Revved%20up%20by-Gradle%20Enterprise-06A0CE?logo=Gradle&labelColor=02303A["Revved up by Gradle Enterprise", link="https://ge.spring.io/scans?&search.rootProjectNames=Spring%20Boot%20Build&search.rootProjectNames=spring-boot-build"]
+= Spring Boot image:https://ci.spring.io/api/v1/teams/spring-boot/pipelines/spring-boot-3.1.x/jobs/build/badge["Build Status", link="https://ci.spring.io/teams/spring-boot/pipelines/spring-boot-3.1.x?groups=Build"] image:https://badges.gitter.im/Join Chat.svg["Chat",link="https://gitter.im/spring-projects/spring-boot?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge"] image:https://img.shields.io/badge/Revved%20up%20by-Gradle%20Enterprise-06A0CE?logo=Gradle&labelColor=02303A["Revved up by Gradle Enterprise", link="https://ge.spring.io/scans?&search.rootProjectNames=Spring%20Boot%20Build&search.rootProjectNames=spring-boot-build"]
 :docs: https://docs.spring.io/spring-boot/docs/current-SNAPSHOT/reference
 :github: https://github.com/spring-projects/spring-boot
 
-Spring Boot helps you to create Spring-powered, production-grade applications and services with absolute minimum fuss.
-It takes an opinionated view of the Spring platform so that new and existing users can quickly get to the bits they need.
+Spring Boot可帮助您以绝对最少的麻烦创建Spring驱动的生产级应用程序和服务。
+它对Spring平台有一个固执己见的观点，以便新老用户可以快速获得他们需要的部分。
 
-You can use Spring Boot to create stand-alone Java applications that can be started using `java -jar` or more traditional WAR deployments.
-We also provide a command-line tool that runs Spring scripts.
+您可以使用Spring Boot创建独立的Java应用程序，这些应用程序可以使用`java -jar`或更传统的WAR部署来启动。
+我们还提供了一个运行Spring脚本的命令行工具。
 
-Our primary goals are:
+我们的主要目标是：
 
-* Provide a radically faster and widely accessible getting started experience for all Spring development.
-* Be opinionated, but get out of the way quickly as requirements start to diverge from the defaults.
-* Provide a range of non-functional features common to large classes of projects (for example, embedded servers, security, metrics, health checks, externalized configuration).
-* Absolutely no code generation and no requirement for XML configuration.
+* 为所有Spring开发提供更快速、可广泛访问的入门体验。
+* 固执己见，但当需求开始偏离默认值时，请迅速让开。
+* 提供一系列大型项目通用的非功能性功能（例如，嵌入式服务器、安全性、指标、运行状况检查、外部化配置）。
+* 绝对没有代码生成，也不需要XML配置。
 
 
 
-== Installation and Getting Started
-The {docs}/html/[reference documentation] includes detailed {docs}/html/getting-started.html#getting-started-installing-spring-boot[installation instructions] as well as a comprehensive {docs}/html/getting-started.html#getting-started-first-application[``getting started``] guide.
+== 安装和入门
 
-Here is a quick teaser of a complete Spring Boot application in Java:
+{docs}/html/[参考文档]包括详细的 {docs}/html/getting-started.html#getting-started-installing-spring-boot[安装说明] 以及全面的 {docs}/html/getting-started.html#getting-started-first-application[``Getting start``] 指南。
+
+以下是Java中完整的Spring Boot应用程序的快速预告片：
 
 [source,java,indent=0]
 ----
@@ -46,45 +47,46 @@ Here is a quick teaser of a complete Spring Boot application in Java:
 
 
 
-== Getting Help
-Are you having trouble with Spring Boot? We want to help!
+== 获取帮助
+您在使用Spring Boot时遇到问题吗？我们希望提供帮助！
 
-* Check the {docs}/html/[reference documentation], especially the {docs}/html/howto.html#howto[How-to's] -- they provide solutions to the most common questions.
-* Learn the Spring basics -- Spring Boot builds on many other Spring projects; check the https://spring.io[spring.io] website for a wealth of reference documentation.
-  If you are new to Spring, try one of the https://spring.io/guides[guides].
-* If you are upgrading, read the {github}/wiki[release notes] for upgrade instructions and "new and noteworthy" features.
-* Ask a question -- we monitor https://stackoverflow.com[stackoverflow.com] for questions tagged with https://stackoverflow.com/tags/spring-boot[`spring-boot`].
-  You can also chat with the community on https://gitter.im/spring-projects/spring-boot[Gitter].
-* Report bugs with Spring Boot at {github}/issues[github.com/spring-projects/spring-boot/issues].
+* 查看 {docs}/html/[参考文档]，尤其是 {docs}/html/howto.html#howto[操作方法]——它们为最常见的问题提供了解决方案。
+* 学习Spring基础知识 -- Spring Boot建立在许多其他Spring项目之上;查看 https://spring.io[spring.io]网站以获取丰富的参考文档。
+  如果你是Spring的新手，试试 https://spring.io/guides[指南]之一。
+* 如果您正在升级，请阅读 {github}/wiki[发行说明] 以获取升级说明和“值得注意的新”功能。
+* 提出问题 -- 我们监控 https://stackoverflow.com[stackoverflow.com]中标有 https://stackoverflow.com/tags/spring-boot[`spring-boot`]的问题。
+  你也可以在 https://gitter.im/spring-projects/spring-boot[Gitter]上与社区聊天。
+* 在 {github}/issues[github.com/spring-projects/spring-boot/issues] 上报告 Spring Boot 的错误。
 
 
 
-== Reporting Issues
-Spring Boot uses GitHub's integrated issue tracking system to record bugs and feature requests.
-If you want to raise an issue, please follow the recommendations below:
+== 报告问题
+Spring Boot 使用 GitHub 的集成问题跟踪系统来记录错误和功能请求。
+如果您想提出问题，请遵循以下建议：
 
-* Before you log a bug, please search the {github}/issues[issue tracker] to see if someone has already reported the problem.
-* If the issue doesn't already exist, {github}/issues/new[create a new issue].
-* Please provide as much information as possible with the issue report.
-We like to know the Spring Boot version, operating system, and JVM version you're using.
+* 在记录错误之前，请搜索 {github}/issues[问题跟踪器] 以查看是否有人已经报告了该问题。
+* 如果问题尚不存在， {github}/issues/new[创建新问题]。
+* 请在问题报告中提供尽可能多的信息。
+我们想知道您正在使用的 Spring 引导版本、操作系统和 JVM 版本。
 * If you need to paste code or include a stack trace, use Markdown.
-+++```+++ escapes before and after your text.
-* If possible, try to create a test case or project that replicates the problem and attach it to the issue.
+* 如果需要粘贴代码或包含堆栈跟踪，请使用 Markdown。
++++```+++ 在文本前后进行转义。
+* 如果可能，请尝试创建复制问题的测试用例或项目，并将其附加到问题。
 
 
 
-== Building from Source
-You don't need to build from source to use Spring Boot (binaries in https://repo.spring.io[repo.spring.io]), but if you want to try out the latest and greatest, Spring Boot can be built and published to your local Maven cache using the https://docs.gradle.org/current/userguide/gradle_wrapper.html[Gradle wrapper].
-You also need JDK 17.
+== 从源代码构建
+你不需要从源代码构建来使用 Spring Boot（https://repo.spring.io[repo.spring.io]中的二进制文件），但如果你想尝试最新和最好的，可以使用 https://docs.gradle.org/current/userguide/gradle_wrapper.html[Gradle 包装器] 构建 Spring Boot 并将其发布到本地 Maven 缓存中。
+您还需要 JDK 17。
 
 [indent=0]
 ----
 	$ ./gradlew publishToMavenLocal
 ----
 
-This will build all of the jars and documentation and publish them to your local Maven cache.
-It won't run any of the tests.
-If you want to build everything, use the `build` task:
+这将构建所有 jar 和文档，并将它们发布到本地 Maven 缓存中。
+它不会运行任何测试。
+如果要构建所有内容，请使用`构建`任务：
 
 [indent=0]
 ----
@@ -93,85 +95,84 @@ If you want to build everything, use the `build` task:
 
 
 
-== Modules
-There are several modules in Spring Boot. Here is a quick overview:
+== 模块
+Spring Boot 中有几个模块。以下是快速概述：
 
 
 
 === spring-boot
-The main library providing features that support the other parts of Spring Boot. These include:
+主库提供支持 Spring Boot 其他部分的功能。其中包括：
 
-* The `SpringApplication` class, providing static convenience methods that can be used to write a stand-alone Spring Application.
-  Its sole job is to create and refresh an appropriate Spring `ApplicationContext`.
-* Embedded web applications with a choice of container (Tomcat, Jetty, or Undertow).
-* First-class externalized configuration support.
-* Convenience `ApplicationContext` initializers, including support for sensible logging defaults.
+* `SpringApplication` 类，提供可用于编写独立 Spring 应用程序的静态便利方法。
+  它的唯一工作是创建和刷新适当的 Spring `ApplicationContext`。
+* 嵌入式Web应用程序，可选择容器（Tomcat，Jetty或Undertow）。
+* 一流的外部化配置支持。
+* 方便的 `ApplicationContext` 初始值设定项，包括对合理日志记录默认值的支持。
 
 
 
 === spring-boot-autoconfigure
-Spring Boot can configure large parts of typical applications based on the content of their classpath.
-A single `@EnableAutoConfiguration` annotation triggers auto-configuration of the Spring context.
-
-Auto-configuration attempts to deduce which beans a user might need. For example, if `HSQLDB` is on the classpath, and the user has not configured any database connections, then they probably want an in-memory database to be defined.
-Auto-configuration will always back away as the user starts to define their own beans.
+Spring Boot 可以根据类路径的内容配置大部分典型应用程序。
+单个 `@EnableAutoConfiguration` 注释会触发 Spring 上下文的自动配置。
+自动配置尝试推断用户可能需要哪些 bean。例如，如果 `HSQLDB` 位于类路径上，并且用户尚未配置任何数据库连接，则他们可能希望定义内存中数据库。
+当用户开始定义自己的 bean 时，自动配置将始终退出。
 
 
 
 === spring-boot-starters
-Starters are a set of convenient dependency descriptors that you can include in your application.
-You get a one-stop shop for all the Spring and related technology you need without having to hunt through sample code and copy-paste loads of dependency descriptors.
-For example, if you want to get started using Spring and JPA for database access, include the `spring-boot-starter-data-jpa` dependency in your project, and you are good to go.
+初学者是一组方便的依赖项描述符，可以将其包含在应用程序中。
+您可以获得所需的所有 Spring 和相关技术的一站式商店，而无需搜索示例代码和复制粘贴依赖项描述符的负载。
+例如，如果你想开始使用 Spring 和 JPA 进行数据库访问，请在项目中包括 `spring-boot-starter-data-jpa` 依赖项，你就可以开始了。
 
 
 
 === spring-boot-actuator
-Actuator endpoints let you monitor and interact with your application.
-Spring Boot Actuator provides the infrastructure required for actuator endpoints.
-It contains annotation support for actuator endpoints.
-This module provides many endpoints, including the `HealthEndpoint`, `EnvironmentEndpoint`, `BeansEndpoint`, and many more.
+执行器端点允许您监视应用程序并与之交互。
+弹簧引导执行器提供执行器端点所需的基础结构。
+它包含对执行器端点的注释支持。
+此模块提供了许多端点，包括 `HealthEndpoint`、 `EnvironmentEndpoint`、 `BeansEndpoint` 等等。
 
 
 
 === spring-boot-actuator-autoconfigure
-This provides auto-configuration for actuator endpoints based on the content of the classpath and a set of properties.
-For instance, if Micrometer is on the classpath, it will auto-configure the `MetricsEndpoint`.
-It contains configuration to expose endpoints over HTTP or JMX.
-Just like Spring Boot AutoConfigure, this will back away as the user starts to define their own beans.
+这根据类路径的内容和一组属性为执行器端点提供了自动配置。
+例如，如果 Micrometer 位于类路径上，它将自动配置 `MetricsEndpoint`。
+它包含通过 HTTP 或 JMX 公开端点的配置。
+就像 Spring Boot AutoConfiguration 一样，当用户开始定义自己的 bean 时，这将退出。
 
 
 
 === spring-boot-test
-This module contains core items and annotations that can be helpful when testing your application.
+此模块包含核心项和注释，这些项和注释在测试应用程序时非常有用。
 
 
 
 === spring-boot-test-autoconfigure
-Like other Spring Boot auto-configuration modules, spring-boot-test-autoconfigure provides auto-configuration for tests based on the classpath.
-It includes many annotations that can automatically configure a slice of your application that needs to be tested.
+与其他 Spring 引导自动配置模块一样，spring-boot-test-autoconfigure 为基于类路径的测试提供自动配置。
+它包括许多注释，可以自动配置需要测试的应用程序切片。
 
 
 
 === spring-boot-loader
-Spring Boot Loader provides the secret sauce that allows you to build a single jar file that can be launched using `java -jar`.
-Generally, you will not need to use `spring-boot-loader` directly but work with the link:spring-boot-project/spring-boot-tools/spring-boot-gradle-plugin[Gradle] or link:spring-boot-project/spring-boot-tools/spring-boot-maven-plugin[Maven] plugin instead.
+Spring 引导加载程序提供了秘密武器，允许您构建一个可以使用 `java -jar` 启动的单个 jar 文件。
+一般来说，你不需要直接使用 `spring-boot-loader`，而是使用 link:spring-boot-project/spring-boot-tools/spring-boot-gradle-plugin[Gradle]或 link:spring-boot-project/spring-boot-tools/spring-boot-maven-plugin[Maven]插件。
 
 
 
 === spring-boot-devtools
-The spring-boot-devtools module provides additional development-time features, such as automatic restarts, for a smoother application development experience.
-Developer tools are automatically disabled when running a fully packaged application.
+spring-boot-devtools 模块提供了额外的开发时功能，例如自动重启，以实现更流畅的应用程序开发体验。
+运行完全打包的应用程序时，开发人员工具会自动禁用。
 
 
 
-== Guides
-The https://spring.io/[spring.io] site contains several guides that show how to use Spring Boot step-by-step:
+== 指南
+https://spring.io/[spring.io] 站点包含几个指南，逐步展示了如何使用 Spring Boot：
 
-* https://spring.io/guides/gs/spring-boot/[Building an Application with Spring Boot] is an introductory guide that shows you how to create an application, run it, and add some management services.
-* https://spring.io/guides/gs/actuator-service/[Building a RESTful Web Service with Spring Boot Actuator] is a guide to creating a REST web service and also shows how the server can be configured.
-* https://spring.io/guides/gs/convert-jar-to-war/[Converting a Spring Boot JAR Application to a WAR] shows you how to run applications in a web server as a WAR file.
+* https://spring.io/guides/gs/spring-boot/[使用 Spring Boot 构建应用程序] 是一个介绍性指南，向您展示如何创建应用程序、运行应用程序以及添加一些管理服务。
+* https://spring.io/guides/gs/actuator-service/[使用 Spring Boot Actuator 构建 RESTful Web 服务] 是创建 REST Web 服务的指南，还展示了如何配置服务器。
+* https://spring.io/guides/gs/convert-jar-to-war/[将 Spring Boot JAR 应用程序转换为 WAR] 向您展示如何在 Web 服务器中将应用程序作为 WAR 文件运行。
 
 
 
-== License
-Spring Boot is Open Source software released under the https://www.apache.org/licenses/LICENSE-2.0.html[Apache 2.0 license].
+== 许可证
+Spring Boot 是在 https://www.apache.org/licenses/LICENSE-2.0.html[Apache 2.0 许可证] 下发布的开源软件。
